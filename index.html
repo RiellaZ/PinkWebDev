@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Front End Course Diary</title>
 </head>
-<body>
-    <h1>Course Diary</h1>
-    <h2>Classwork</h2>
-    <p>Day one: Introductions, Git and GitHub </p>
-    <h2>Homework</h2>
-    <p>Create the first project and push it to GitHub</p>
+<body class="body">
+    <header>
+        <h1>Front End Course Diary</h1>
+        <p class="by">by Gabriella</p>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#Course Structure">Course Structure</a></li>
+                <li><a href="#Contact me">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Course Structure</h2>
+            <table class="table">
+                <tr>
+                    <th>Lesson No</th>
+                    <th>Topic</th>
+                    <th>Classwork</th>
+                    <th>Homework</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Work process setup, HTML introduction</td>
+                    <td> Initialize repository, connect it to the Github, work on it</td>
+                    <td>Create an HTML page - our course diary</td>
+                </tr>
+                    <td>2</td>
+                    <td>Version Control Systems, Git and GitHub</td>
+                    <td>Work on the Course Diary project</td>
+                    <td>Create a CV and style it with CSS</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Contact me</h2>
+            <img src="images/hey.png" alt="person">
+            <form class="form">
+                <input type="Name" placeholder="Your Name">
+                <textarea placeholder="Your message" name="Message"></textarea>
+               <button type="submit">Submit</button> 
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>When nothing goes right, go left</h3>
+    </footer>
+    
 </body>
 </html>

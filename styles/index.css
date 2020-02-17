@@ -1,11 +1,13 @@
 .body {
     background-color: #CCC5B9;
 }
-h1 {
+.heading {
     text-align: center;
+    background-color: teal;
 }
 .by {
     text-align: center;
+    font-style: italic;
 }
 
 .navigation {
@@ -14,16 +16,12 @@ h1 {
 h2 {
     text-align: center;
 }
-.table {
+.table, th, td {
     border: 1px solid teal;
     margin: auto;
-}
-table, th, td {
-    border: 1px solid teal;
-    margin: auto;
-    text-align: center; 
-}
-img {
+    padding: 2px; 
+    }
+.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -31,6 +29,6 @@ img {
 .form {
     text-align: center;
 }
-h3 {
+.footer {
     text-align: center;
 }
